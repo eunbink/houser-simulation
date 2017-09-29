@@ -1,0 +1,34 @@
+.main_container{
+    height: 90vh;
+    width: 100vw;
+    background: #afd4c0;
+    display: flex;
+    justify-content: center;
+}
+
+.content_container{
+    height: 90vh;
+    width: 50vw;
+    background: white;
+    
+
+}
+
+.addListing{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.step{
+    width: 60%;
+    margin: auto;
+}
+
+.what_stage{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
