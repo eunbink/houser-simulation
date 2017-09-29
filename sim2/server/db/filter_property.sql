@@ -1,0 +1,1 @@
+Select * from Property where desiredRent >= $1 and userId = $2
