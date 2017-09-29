@@ -31,10 +31,13 @@ class WizardFive extends Component {
                                 <img src={stepActive} />
                             </div>
 
-                            
+                            <div className='stepContent'>
+                                <span>Desired Rent</span>
+                                <input></input>
+                            </div>
                         </div>
 
-
+                        <Link to='/wizard/4'><button>Previous</button></Link>
                         <Link to='/dashboard'><button>Complete</button></Link>
                     </div>
 

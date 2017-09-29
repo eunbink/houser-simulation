@@ -18,8 +18,8 @@ class WizardOne extends Component {
                 <div className='main_container'>
                     <div className='content_container'>
                         <div className='addListing'>
-                            <h3>Add new listing</h3>
-                            <Link to='/dashboard'><button>Cancel</button></Link>
+                            <h3 className='addListing_words'>Add new listing</h3>
+                            <Link to='/dashboard'><button className='cancel'>Cancel</button></Link>
                         </div>
                         <div className='step'>
                             <span>Step 1</span>

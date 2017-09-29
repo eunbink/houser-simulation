@@ -24,15 +24,22 @@ class WizardFour extends Component {
                         <div className='step'>
                             <span>Step 4</span>
                             <div className='what_stage'>
-                            <img src={stepCompleted} />
-                            <img src={stepCompleted}/>
-                            <img src={stepCompleted}/>
-                            <img src={stepActive}/>
-                            <img src={stepInactive}/>
+                                <img src={stepCompleted} />
+                                <img src={stepCompleted} />
+                                <img src={stepCompleted} />
+                                <img src={stepActive} />
+                                <img src={stepInactive} />
+                            </div>
+
+                            <div className='stepContent'> 
+                                <span>Loan Amount</span>
+                                <input></input>
+                                <span>Monthly Mortgage</span>
+                                <input></input>
                             </div>
                         </div>
 
-
+                        <Link to='/wizard/3'><button>Previous</button></Link>
                         <Link to='/wizard/5'><button>Next Step</button></Link>
                     </div>
 
