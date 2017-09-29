@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background-color: #afd4c0;
+}
+
+.loginContainer {
+  background-color: white;
+  width: 50%;
+  height: 100%;
+}
+
+.logocontainer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  
+}
+
+.App-logo {
+  display: flex;
+  width:50px;
+  align-content: flex-end;
+}
+
+.Shelflogo {
+  width: 100%;
+  padding: 20px;
+}
+
+
+.Item_content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.Left_content {
+  width: 43%;
+}
+
+.item-photo {
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 300px;
+  
+}
+
+.Right_content {
+  height:100%;
+  width:100%;
+  margin-left: 20px;
+
+}
+
+.itemtext {
+  font-weight: bold;
+}
+
+.item_input {
+  font-weight: bold;
+  font-size: 1.75em;
+  width:475px;
+  height: 60px;
+  border-color: #AB2A19;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+button{
+  height: 60px;
+  width: 170px;
+  margin: 40px;
+  background-color: #C0C0C0;
+  font-weight: bold;
+  font-size:1.5em;
+  border-radius: 5px;
+}
