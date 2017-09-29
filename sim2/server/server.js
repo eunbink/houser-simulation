@@ -33,7 +33,7 @@ app.post(
   "/api/properties/:id/:propertyname/:propertydescription/:address/:city/:state/:zip/:imgurl/:loamamount/:monthlymortgage/:desiredrent",
   uc.createProperty
 );
-app.get("/api/properties/:desiredRent", uc.filterProperty);
+app.get("/api/filteredProperties/:desiredRent", uc.filterProperty);
 app.get("/api/properties/:id", uc.returnProperty);
 app.delete("/api/properties/", uc.deleteProperty);
 
