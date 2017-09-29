@@ -13,3 +13,21 @@
     
 
 }
+
+.addListing{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.step{
+    width: 60%;
+    margin: auto;
+}
+
+.what_stage{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
