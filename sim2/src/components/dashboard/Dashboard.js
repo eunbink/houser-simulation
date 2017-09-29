@@ -8,7 +8,7 @@ class Dashboard extends Component {
 
     render() {
         return (
-            <div>
+            <div className='help'>
                 <Header />
                 <Link to='/wizard/1'><button>ADD NEW PROPERTY</button></Link>
             </div>
