@@ -44,6 +44,30 @@
     border-radius: 2px;
     color: rgba(0,0,0,.2);
     margin-bottom: 20px;
-    border-color: #519872;
+    border: 1px solid #519872;
+    font-weight: bold;
+}
 
+.imageInput {
+    width: 60%;
+}
+
+.buttonContainer {
+    margin-top: 20px;
+}
+
+.previousStep {
+    background-color:#3b5249;
+    height: 40px;
+    width: 100px;
+    color: white;
+    margin-right: 20px;
+}
+
+.nextStep {
+    margin-left: 20px;
+    background-color:#3b5249;
+    height: 40px;
+    width: 100px;
+    color: white;
 }

@@ -23,19 +23,28 @@ class WizardThree extends Component {
                         <div className='step'>
                             <span>Step 3</span>
                             <div className='what_stage'>
-                            <img src={stepCompleted} />
-                            <img src={stepCompleted}/>
-                            <img src={stepActive}/>
-                            <img src={stepInactive}/>
-                            <img src={stepInactive}/>
+                                <img src={stepCompleted} />
+                                <img src={stepCompleted} />
+                                <img src={stepActive} />
+                                <img src={stepInactive} />
+                                <img src={stepInactive} />
                             </div>
                         </div>
-                        <div className= 'imgContainer'>
+                        <div className='imgContainer'>
                             <p>Preview</p>
+                        </div>
+                        <p> Image URL </p>
+                        <input className= 'imageInput' type='text'></input>
+                        <div className= 'buttonContainer'>
+                            <Link to='/wizard/2'><button className="previousStep">Previous Step</button></Link>
+                            <Link to='/wizard/4'><button className='nextStep'>Next Step</button></Link>
                             </div>
 
 
-                        <Link to='/wizard/4'><button>Next Step</button></Link>
+
+
+
+                        
                     </div>
 
                 </div>
