@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-
+import Header from '../header/Header'
 
 
 
 class WizardOne extends Component {
-    constructor(){
-        super();
 
-
+    render() {
+        return (
+            <div>
+                <Header />
+            </div>
+        )
     }
 }
 
