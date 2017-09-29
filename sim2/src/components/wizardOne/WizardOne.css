@@ -1,0 +1,15 @@
+.main_container{
+    height: 90vh;
+    width: 100vw;
+    background: #afd4c0;
+    display: flex;
+    justify-content: center;
+}
+
+.content_container{
+    height: 90vh;
+    width: 50vw;
+    background: white;
+    
+
+}

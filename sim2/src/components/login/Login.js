@@ -8,29 +8,17 @@ class Login extends Component {
     render() {
         return (
             <div className="login">
-                {/* <div className = "loginContainer"> */}
-                    <div className='logocontainer'>
-                        <img src={authLogo} className="App-logo" alt="logo" />
-                    </div>
-                    <div className="Shelflogo">
-                        <h1>SHELFIE</h1>
-                    </div>
-                <div className='Item_content'>
-                    {/* <div className='Left_content'>
-                        <img src={logo2} className="item-photo" alt='item' />
-                    </div> */}
-                    <div className="Right_content">
-                        <p className='itemtext'>Name</p>
+                <div className = "loginContainer">
+                        <img src={authLogo} className="authLogo" alt="logo" />
+                        <span className='itemtext'>Username</span>
                         <input className='item_input' type='text' />
-                        <p className='itemtext'>Price</p>
+                        <span className='itemtext'>Password</span>
                         <input className='item_input' type='text' />
-                        <div>
-                            <button>Edit</button>
-                            <button>Delete</button>
-                        </div>
+                        <div className='buttonContainer'>
+                           <Link to='/dashboard'> <button className = "loginbutton">Login</button></Link>
+                            <Link to='/dashboard'><button className= "registerButton">Register</button></Link>
+                            </div>
                     </div>
-                  </div>
-                {/* </div> */}
             </div>
         );
     }

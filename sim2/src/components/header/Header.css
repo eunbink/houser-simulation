@@ -1,0 +1,38 @@
+.header{
+    background: #519872;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header_child{
+    height: 41px;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+
+}
+
+.header_logo{
+    height: 28px;
+    width: 34px;
+}
+
+.header_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    width: 210px;
+    justify-content: space-between;
+    
+}
+
+.logout{
+    color: white;
+    text-decoration: none
+}
