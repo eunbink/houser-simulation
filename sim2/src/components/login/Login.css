@@ -14,24 +14,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* min-height: 850px;
-  min-width: 850px; */
+  min-height: 850px; 
+  min-width: 850px; 
   background-color: white;
-  width: 60%;
+  width: 50%;
   height: 100%;
   flex-direction: column;
 }
 
-.authLogo {
-  margin-top: 250px;
+/* .authLogo {
   margin-bottom: 50px;
-}
+} */
 
 .itemtext {
-  display:block;
   font-size: 1.5em;
   font-weight: bold;
-  position: relative;
   margin-bottom: 3px;
   margin-top: 25px;
 }
@@ -39,8 +36,8 @@
 .item_input {
   font-weight: bold;
   font-size: 1.75em;
-  width:550px;
-  height: 60px;
+  width:650px;
+  height: 30px;
   border: 1px solid #519872;
   outline: none;
 }
