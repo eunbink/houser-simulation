@@ -1,0 +1,1 @@
+delete from Propterty where id = $1 
