@@ -10,12 +10,14 @@ class Login extends Component {
             <div className="login">
                 <div className = "loginContainer">
                         <img src={authLogo} className="authLogo" alt="logo" />
-                        <p className='itemtext'>Name</p>
+                        <span className='itemtext'>Username</span>
                         <input className='item_input' type='text' />
-                        <p className='itemtext'>Price</p>
+                        <span className='itemtext'>Password</span>
                         <input className='item_input' type='text' />
-                            <button>Edit</button>
-                            <button>Delete</button>
+                        <div className='buttonContainer'>
+                           <Link to='/dashboard'> <button className = "loginbutton">Login</button></Link>
+                            <Link to='/dashboard'><button className= "registerButton">Register</button></Link>
+                            </div>
                     </div>
             </div>
         );

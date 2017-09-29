@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 
 .login {
   display: flex;
@@ -24,29 +24,48 @@
 
 .authLogo {
   margin-top: 250px;
+  margin-bottom: 50px;
 }
 
 .itemtext {
+  display:block;
+  font-size: 1.5em;
   font-weight: bold;
   position: relative;
+  margin-bottom: 3px;
+  margin-top: 25px;
 }
 
 .item_input {
   font-weight: bold;
   font-size: 1.75em;
-  width:475px;
+  width:550px;
   height: 60px;
-  border-color: #AB2A19;
-  border-width: 1px;
-  border-radius: 5px;
+  border: 1px solid #519872;
+  outline: none;
 }
 
-button{
-  height: 60px;
-  width: 170px;
-  margin: 40px;
-  background-color: #C0C0C0;
-  font-weight: bold;
-  font-size:1.5em;
-  border-radius: 5px;
+.buttonContainer {
+  margin-top: 20px;
+  display: block;
 }
+
+.loginbutton {
+  background-color: #8aea92;
+  height: 40px;
+  width: 150px;
+  font-weight: bold;
+  font-size:1em;
+  margin-right: 10px;
+}
+
+.registerButton {
+  background-color: #3b5249;
+  color: white;
+  height: 40px;
+  width: 150px;
+  font-weight: bold;
+  font-size:1em;
+  margin-left: 10px;
+}
+
