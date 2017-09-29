@@ -30,6 +30,15 @@ class WizardOne extends Component {
                             <img src={stepInactive}/>
                             <img src={stepInactive}/>
                             </div>
+
+                            <div className='step_content'>
+                                <span>Property Name</span>
+                                <input></input>
+                                <span>Property Description</span>
+                                <input></input>
+
+                            </div>
+
                         </div>
 
 

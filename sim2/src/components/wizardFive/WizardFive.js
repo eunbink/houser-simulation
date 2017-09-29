@@ -24,16 +24,18 @@ class WizardFive extends Component {
                         <div className='step'>
                             <span>Step 5</span>
                             <div className='what_stage'>
-                            <img src={stepCompleted} />
-                            <img src={stepCompleted}/>
-                            <img src={stepCompleted}/>
-                            <img src={stepCompleted}/>
-                            <img src={stepActive}/>
+                                <img src={stepCompleted} />
+                                <img src={stepCompleted} />
+                                <img src={stepCompleted} />
+                                <img src={stepCompleted} />
+                                <img src={stepActive} />
                             </div>
+
+                            
                         </div>
 
 
-                        <Link to='/wizard/3'><button>Next Step</button></Link>
+                        <Link to='/dashboard'><button>Complete</button></Link>
                     </div>
 
                 </div>
