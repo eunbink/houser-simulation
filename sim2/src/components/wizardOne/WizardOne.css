@@ -32,3 +32,13 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.cancel{
+    padding: 10px;
+    margin-right: 20px;
+    background: #fec2c2;
+}
+
+.addListing_words{
+    margin-left: 20px;
+}

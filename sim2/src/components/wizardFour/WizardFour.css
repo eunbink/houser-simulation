@@ -32,3 +32,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.stepContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

@@ -19,20 +19,31 @@ class WizardTwo extends Component {
                     <div className='content_container'>
                         <div className='addListing'>
                             <h3>Add new listing</h3>
-                            <Link to='/dashboard'><button>Cancel</button></Link>
+                            <Link  to='/dashboard'><button>Cancel</button></Link>
                         </div>
                         <div className='step'>
                             <span>Step 2</span>
                             <div className='what_stage'>
-                            <img src={stepCompleted} />
-                            <img src={stepActive}/>
-                            <img src={stepInactive}/>
-                            <img src={stepInactive}/>
-                            <img src={stepInactive}/>
+                                <img src={stepCompleted} />
+                                <img src={stepActive} />
+                                <img src={stepInactive} />
+                                <img src={stepInactive} />
+                                <img src={stepInactive} />
+                            </div>
+
+                            <div className='stepContent'>
+                                <span>Adress</span>
+                                <input className='adressInput'></input>
+                                <span>City</span>
+                                <input></input>
+                                <span>State</span>
+                                <input></input>
+                                <span>Zip</span>
+                                <input></input>
                             </div>
                         </div>
 
-
+                        <Link to='/wizard/1'><button>Previous</button></Link>
                         <Link to='/wizard/3'><button>Next Step</button></Link>
                     </div>
 
