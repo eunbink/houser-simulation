@@ -11,13 +11,16 @@ class WizardOne extends Component {
             <div>
                 <Header />
                 <div className='main_container'>
-                    <div className='content_container'></div>
+                    <div className='content_container'>
+
 
 
                     <Link to='/wizard/2'><button>Next Step</button></Link>
+                    </div>
+
                 </div>
-            </div>
-        )
+                </div>
+                )
     }
 }
 
