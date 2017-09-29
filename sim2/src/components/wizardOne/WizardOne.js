@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom'
 import stepActive from '../../assets/step_active.png'
 import stepCompleted from '../../assets/step_completed.png'
 import stepInactive from '../../assets/step_inactive.png'
+import axios from 'axios'
+import { connect } from 'react-redux'
 
 
 class WizardOne extends Component {
