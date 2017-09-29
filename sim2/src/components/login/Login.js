@@ -7,6 +7,8 @@ import { connect } from "react-redux";
 import { updateUserName, updatePassword } from "../../ducks/reducer";
 
 class Login extends Component {
+  handleLogin() {}
+
   render() {
     const { updateUserName, updatePassword } = this.props;
     return (
@@ -32,7 +34,7 @@ class Login extends Component {
           <div className="buttonContainer">
             <Link to="/dashboard">
               {" "}
-              <button className="loginbutton" onClick={handle}>
+              <button className="loginbutton" onClick={handleLogin}>
                 Login
               </button>
             </Link>
